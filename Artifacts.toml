@@ -1,113 +1,115 @@
 [[LibArchive]]
 arch = "aarch64"
-git-tree-sha1 = "bbdbed49024ec8a2a4ae24d336c8ee5c10ef2670"
+git-tree-sha1 = "7bf051f52ddf50b674fb303e4592278244dc2016"
 libc = "glibc"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "c2ca2c69dfb22dbeb6e2c7b362b473ff61c95856fc84609802b2deee072dc718"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "8aa68b60a3b393dec1cbf0f5331bf9f1a48596573cecd00411d21e35adf149d3"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.aarch64-linux-gnu.tar.gz"
 [[LibArchive]]
 arch = "aarch64"
-git-tree-sha1 = "f269b2f7028af796fd902b18dd046dd0cb040176"
+git-tree-sha1 = "3c360ca5f75a9914686cb5fa6b73f7b9e4389cfc"
 libc = "musl"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "fa6a01195b2d6073da6e1b4cf89817fdbfe888e31575e50a0f4d739b2871ff44"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.aarch64-linux-musl.tar.gz"
+    sha256 = "805881fa390c553cecfa370240367b7940fa6ef113dd536d3ed2965a4ddc21db"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.aarch64-linux-musl.tar.gz"
 [[LibArchive]]
 arch = "armv7l"
-git-tree-sha1 = "0d1fe8057530b5413a279a50f2e29678f45a8551"
+call_abi = "eabihf"
+git-tree-sha1 = "7ae87422fb74191663e1acb477c33dbc1ffe3740"
 libc = "glibc"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "9eca5eab4adfd3549e8e6ba18c15d18560ba58692d00689ab026dda5beb30207"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "a8d70ffdbe04aed94937134b9d67662e1ff756efe58bbfb1d91bf1a81944d12e"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.armv7l-linux-gnueabihf.tar.gz"
 [[LibArchive]]
 arch = "armv7l"
-git-tree-sha1 = "70a07e2f17ff6aadd47ddf52c2276a2f37b44516"
+call_abi = "eabihf"
+git-tree-sha1 = "65c5dcc8e1d56f452a8489f6b289ceb91273834a"
 libc = "musl"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "c45c104a839452c5a65da13bdca959ad84cbe861f11cd17939916a0afa929e40"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "c84229d0746f91be1b9c2e99dc4212659cb617928e1663532d3aab7768a7cbdd"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.armv7l-linux-musleabihf.tar.gz"
 [[LibArchive]]
 arch = "i686"
-git-tree-sha1 = "f510f41c6908204c6443371addbc01fb3aac4da3"
+git-tree-sha1 = "e5506ed8111d33fac2f26d06a5c7bb481b80d482"
 libc = "glibc"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "e83adc550742cb0b65bd8923eca6e5932d042f72ee91f6ceeaaa0fbc1c1b7b50"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.i686-linux-gnu.tar.gz"
+    sha256 = "caccdd352885f49da71b57b886c16b397e4dab877be706fbed12d8605db83b21"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.i686-linux-gnu.tar.gz"
 [[LibArchive]]
 arch = "i686"
-git-tree-sha1 = "b73c491635cab58edd2a4fbee3c7c59a9d6e3d79"
+git-tree-sha1 = "33880a21077cbb8460cac330a9a001bf13a77704"
 libc = "musl"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "62e7eefe9832fd8105600ebe288627132307c89a348a2f26dbec1bf38d98ad9a"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.i686-linux-musl.tar.gz"
+    sha256 = "56be4193b9b2198e9194167630de84cdad12a7599d3f2b918712579ba3dfa73b"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.i686-linux-musl.tar.gz"
 [[LibArchive]]
 arch = "i686"
-git-tree-sha1 = "707ef630d4d1150e7ca1b957171dba5e928cd06c"
+git-tree-sha1 = "e2097837b5964a52f982ca0705c460d198fb5866"
 os = "windows"
 
     [[LibArchive.download]]
-    sha256 = "5bff42429e277d0cdf6426e7f0eaad3f33869a482cd93e33c4917850f69820ce"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.i686-w64-mingw32.tar.gz"
+    sha256 = "6314f2c6f9adad8d0dc53447a07cad97af75e44e13e4118a68dc19c3f2f085ed"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.i686-w64-mingw32.tar.gz"
 [[LibArchive]]
 arch = "powerpc64le"
-git-tree-sha1 = "7680fef6a854739fa6ebfe5747d057d01248005b"
+git-tree-sha1 = "ef008fb2427e4499a8fb58a39caab6bb6cf0efb0"
 libc = "glibc"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "12052c9ea3d7deb5d96627a99697a1f061ae2f0c5d4979c0d2982989c2cab09e"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "1289158fb2a02aeefe58591eb921b5c00b108bbea285eaccc18ffb137e4906ef"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.powerpc64le-linux-gnu.tar.gz"
 [[LibArchive]]
 arch = "x86_64"
-git-tree-sha1 = "ba034a5c3d0363149008455edbdf78ce2f57ab34"
+git-tree-sha1 = "fafa67461f813b5bcbdb034ebfa4de23d523c103"
 os = "macos"
 
     [[LibArchive.download]]
-    sha256 = "9ed88b559ff52fd8a37526e6539ecbb7a3732945ab797096c216eeb95253e280"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.x86_64-apple-darwin14.tar.gz"
+    sha256 = "999abdecf55e31a612be2a5d1cfe8dd76f448fd7b0ed2e1d32549c38c9f3b815"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.x86_64-apple-darwin.tar.gz"
 [[LibArchive]]
 arch = "x86_64"
-git-tree-sha1 = "0e3fbaf84107212037141140a34178ec25e5b09b"
+git-tree-sha1 = "9e7c88fd536d868b79d4309ce46590732951e4bf"
 libc = "glibc"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "c1590ac10c593b33a18d3efd443efd2240307f2c5fac478a0efa79b55bef54ee"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.x86_64-linux-gnu.tar.gz"
+    sha256 = "ee40bf9e3efa992b940dbe7c23145ac166a2404ed957cc627f3ef4d5ccd24b2c"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.x86_64-linux-gnu.tar.gz"
 [[LibArchive]]
 arch = "x86_64"
-git-tree-sha1 = "f5ac7c977d20727fed3a23134b57d8dc1b41aef9"
+git-tree-sha1 = "7d3737f37590e30cc42178342fb07d60d1e7fd31"
 libc = "musl"
 os = "linux"
 
     [[LibArchive.download]]
-    sha256 = "fe0e2151d041d5790e613b9915e4a10343b24f63804ea6686db1a043b38d83e3"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.x86_64-linux-musl.tar.gz"
+    sha256 = "2e3176a1d08f123e5c9c208063a88f100b04b71660adc7881f70ce7a5ece6b37"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.x86_64-linux-musl.tar.gz"
 [[LibArchive]]
 arch = "x86_64"
-git-tree-sha1 = "ecdf78b1b9f2728fe568a30e8f419562a41c5ffa"
+git-tree-sha1 = "40ff69ab317861e6f9a7c96e30b3f1ced49ffcad"
 os = "freebsd"
 
     [[LibArchive.download]]
-    sha256 = "72165d31af8f076a01e81a33ae760677a841fa64bd4e23ec1b870c7a33d4f06f"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "213d2316591d2ca29a95cb0afc8578ea32d14d79a56cb93818a28684cf1c67b3"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.x86_64-unknown-freebsd.tar.gz"
 [[LibArchive]]
 arch = "x86_64"
-git-tree-sha1 = "0c891a4e57910da7d6f4110a52438dd11f87634a"
+git-tree-sha1 = "9a869c25e3a9c988c1b4e8a6050ca67681405926"
 os = "windows"
 
     [[LibArchive.download]]
-    sha256 = "b2a77c3bb314d1202cccea16c2bba012ce8c21a4499b6c0751b20b46736325c7"
-    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.4.3+1/LibArchive.v3.4.3.x86_64-w64-mingw32.tar.gz"
+    sha256 = "e90bae9d81dcc14a3c6fc0a96c18b39ed783a81dd51ca8475bdd01a35f81a24a"
+    url = "https://github.com/JuliaBinaryWrappers/LibArchive_jll.jl/releases/download/LibArchive-v3.5.1+0/LibArchive.v3.5.1.x86_64-w64-mingw32.tar.gz"
