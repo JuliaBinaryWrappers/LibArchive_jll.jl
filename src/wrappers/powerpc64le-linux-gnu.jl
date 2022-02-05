@@ -12,12 +12,18 @@ using XZ_jll
 using Zlib_jll
 using Zstd_jll
 JLLWrappers.@generate_wrapper_header("LibArchive")
+JLLWrappers.@declare_library_product(libarchive, "libarchive.so.13")
 JLLWrappers.@declare_executable_product(bsdcat)
 JLLWrappers.@declare_executable_product(bsdcpio)
 JLLWrappers.@declare_executable_product(bsdtar)
-JLLWrappers.@declare_library_product(libarchive, "libarchive.so.13")
 function __init__()
     JLLWrappers.@generate_init_header(acl_jll, Attr_jll, Bzip2_jll, Expat_jll, Libiconv_jll, Lz4_jll, OpenSSL_jll, XZ_jll, Zlib_jll, Zstd_jll)
+    JLLWrappers.@init_library_product(
+        libarchive,
+        "lib/libarchive.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         bsdcat,
         "bin/bsdcat",
@@ -31,12 +37,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         bsdtar,
         "bin/bsdtar",
-    )
-
-    JLLWrappers.@init_library_product(
-        libarchive,
-        "lib/libarchive.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()

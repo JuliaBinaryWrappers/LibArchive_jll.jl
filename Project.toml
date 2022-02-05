@@ -1,6 +1,6 @@
 name = "LibArchive_jll"
 uuid = "1e303b3e-d4db-56ce-88c4-91e52606a1a8"
-version = "3.5.1+0"
+version = "3.5.2+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -20,4 +20,6 @@ Zstd_jll = "3161d3a3-bdf6-5164-811a-617609db77b4"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.0"
+julia = "1.6"
+Bzip2_jll = "1.0.8"
+Expat_jll = "2.2.10"
