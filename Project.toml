@@ -1,6 +1,6 @@
 name = "LibArchive_jll"
 uuid = "1e303b3e-d4db-56ce-88c4-91e52606a1a8"
-version = "3.7.4+0"
+version = "3.7.9+0"
 
 [deps]
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
@@ -18,10 +18,10 @@ Libiconv_jll = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
 Zstd_jll = "3161d3a3-bdf6-5164-811a-617609db77b4"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "1.6"
-OpenSSL_jll = "3.0.13"
-Bzip2_jll = "1.0.8"
-Libdl = "1"
-Expat_jll = "2.2.10"
-Artifacts = "1"
+OpenSSL_jll = "3.0.16"
+Bzip2_jll = "1.0.9"
+Libdl = "< 0.0.1, 1"
+Expat_jll = "2.6.5"
+Artifacts = "< 0.0.1, 1"
